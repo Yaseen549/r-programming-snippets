@@ -1,3 +1,5 @@
+# Arithmetic Operators
+
 x <- 5
 y <- 16
 x+y
@@ -14,3 +16,20 @@ y%%x
 # Ans -> 1
 y^x
 # Ans -> 1048576
+
+## Relational Operators
+
+x <- 5
+y <- 16
+x<y
+# Ans ->  TRUE
+x>y
+# Ans ->  FALSE
+x<=5
+# Ans ->  TRUE
+y>=20
+# Ans ->  FALSE
+y == 16
+# Ans ->  TRUE
+x != 5
+# Ans ->  FALSE
