@@ -33,3 +33,18 @@ y == 16
 # Ans ->  TRUE
 x != 5
 # Ans ->  FALSE
+
+## Logical Operators
+
+x <- c(TRUE,FALSE,0,6)
+y <- c(FALSE,TRUE,FALSE,TRUE)
+!x
+# Ans ->  FALSE  TRUE  TRUE FALSE
+x&y
+# Ans ->  FALSE FALSE FALSE  TRUE
+x&&y
+# Ans ->  FALSE
+x|y
+# Ans ->   TRUE  TRUE FALSE  TRUE
+x||y
+# Ans ->  TRUE
