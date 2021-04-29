@@ -48,3 +48,15 @@ x|y
 # Ans ->   TRUE  TRUE FALSE  TRUE
 x||y
 # Ans ->  TRUE
+
+## Assignment Operator
+
+x <- 5
+x
+# Ans ->  5
+x = 9
+x
+# Ans -> 9
+10 -> x
+x
+# Ans ->  10
